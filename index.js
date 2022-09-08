@@ -3,10 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
-var { parse, stringify, toJSON, fromJSON } = require('flatted');
 const dns = require('node:dns');
-const { nextTick } = require('node:process');
-const { link } = require('node:fs');
 
 const arrayOfURLs = [];
 // Basic Configuration
